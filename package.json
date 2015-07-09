@@ -1,0 +1,28 @@
+{
+  "name": "find-me-food",
+  "version": "1.0.0",
+  "description": "Web app that decides and finds you food.",
+  "main": "index.js",
+  "scripts": {
+    "devserve": "webpack-dev-server -d --config webpack.config.js --content-base public/ --progress --colors",
+    "devbuild": "webpack -d --config webpack.config.js --profile --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmwwoo/find-me-food.git"
+  },
+  "keywords": [
+    "yelp",
+    "restaurant"
+  ],
+  "author": "Brandon Woo, Vincent Siu, Robert Mitsuda",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-loader": "^0.7.2" "dependencies": {
+  },
+  }
+  "bugs": {
+    "url": "https://github.com/bmwwoo/find-me-food/issues"
+  },
+  "homepage": "https://github.com/bmwwoo/find-me-food"
+}
