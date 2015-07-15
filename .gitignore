@@ -2,4 +2,4 @@
 npm debug
 npm-debug.log
 node_modules/
-
+bundle.js.map
