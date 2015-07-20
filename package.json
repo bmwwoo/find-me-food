@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bmwwoo/find-me-food.git"
+    "url": "https://github.com/bmwwoo/find-me-food-react.git"
   },
   "keywords": [
     "yelp",
     "restaurant"
   ],
-  "author": "Brandon Woo, Vincent Siu, Robert Mitsuda",
+  "author": "Brandon Woo, Vincent Siu, Robert Mitsuda, Riley Woo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bmwwoo/find-me-food/issues"
