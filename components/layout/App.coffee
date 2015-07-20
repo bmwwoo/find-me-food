@@ -1,6 +1,14 @@
 React = require "react"
-{ h1 } = React.DOM
+NavBarComponent = React.createFactory require("../NavBarComponent")
+MainWindowComponent = React.createFactory require("../MainWindowComponent")
+
+{ div } = React.DOM
 
 module.exports = React.createClass
+  displayName: "App"
+
   render: -> 
-      h1 className: "example-class", "testing"
+    div {},
+      NavBarComponent {}
+      MainWindowComponent {}
+
