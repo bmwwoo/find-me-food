@@ -11,4 +11,3 @@ module.exports = React.createClass
     div {},
       NavBarComponent {}
       MainWindowComponent {}
-
